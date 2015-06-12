@@ -23,7 +23,7 @@ PathPlug is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PathPlug"
+pod "PathPlugSDK"
 ```
 
 Alternatively you can clone this repo and use PathPlugSDK.framework or libPathPlugSDK.a found under /Pod/ directory.

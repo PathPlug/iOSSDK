@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/PathPlug/iOSSDK"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = 'SDK'
   s.author           = { "Berk Taner" => "berk@pathplug.com" }
   s.source           = { :git => "https://github.com/PathPlug/iOSSDK.git", :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/pathplug'
@@ -24,12 +24,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/PathPlugSDK.framework'
+  s.source_files = 'Pod/PathPlugSDK.framework/*.*'
   s.resource_bundles = {
     'PathPlug' => ['Pod/Assets/*.png']
   }
 
-   s.public_header_files = 'Pod/Headers/*.h'
+   s.public_header_files = 'Pod/PathPlugSDK.framework/Headers/*.{h}'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
