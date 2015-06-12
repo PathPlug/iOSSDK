@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/PathPlugSDK.framework/*.*'
+  s.source_files = {'Pod/Frameworks/PathPlugSDK.{framework}'}
   s.resource_bundles = {
     'PathPlug' => ['Pod/Assets/*.png']
   }
