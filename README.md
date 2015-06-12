@@ -1,4 +1,4 @@
-# PathPlug
+# PathPlugSDK
 
 
 [![Version](https://img.shields.io/cocoapods/v/PathPlug.svg?style=flat)](http://cocoapods.org/pods/PathPlug)
