@@ -1,9 +1,9 @@
 # PathPlugSDK
 
 
-[![Version](https://img.shields.io/cocoapods/v/PathPlug.svg?style=flat)](http://cocoapods.org/pods/PathPlug)
-[![License](https://img.shields.io/cocoapods/l/PathPlug.svg?style=flat)](http://cocoapods.org/pods/PathPlug)
-[![Platform](https://img.shields.io/cocoapods/p/PathPlug.svg?style=flat)](http://cocoapods.org/pods/PathPlug)
+[![Version](https://img.shields.io/cocoapods/v/PathPlugSDK.svg?style=flat)](http://cocoapods.org/pods/PathPlugSDK)
+[![License](https://img.shields.io/cocoapods/l/PathPlugSDK.svg?style=flat)](http://cocoapods.org/pods/PathPlugSDK)
+[![Platform](https://img.shields.io/cocoapods/p/PathPlugSDK.svg?style=flat)](http://cocoapods.org/pods/PathPlugSDK)
 
 ## Usage
 

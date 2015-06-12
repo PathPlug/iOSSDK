@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     'PathPlug' => ['Pod/Assets/*.png']
   }
 
-   s.public_header_files = 'Pod/PathPlugSDK.framework/Headers/*.{h}'
+  # s.public_header_files = 'Pod/PathPlugSDK.framework/Headers/*.{h}'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
