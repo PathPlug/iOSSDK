@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PathPlugSDK"
-  s.version          = "1.1.2"
+  s.version          = "1.1.3"
   s.summary          = "iOS SDK to use PathPlug interactions using iBeacon devices."
   s.description      = <<-DESC
                       PathPlug iOS SDK allows you to login and access your interactions. You can enable different interactions as well as get raw beacon data to build beyond our platform. Works with any iBeacon devices in the market. Supports iOS7 and up.
