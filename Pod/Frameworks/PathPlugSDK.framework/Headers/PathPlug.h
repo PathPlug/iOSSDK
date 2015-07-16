@@ -107,6 +107,11 @@
  */
 -(void)initWithAppKey:(NSString*)app_key andAppSecret:(NSString*)appSecret;
 /**
+ *  Reconnects to PathPlug server and updates information
+ *
+ */
+-(void)reloadData;
+/**
  *  Stops PathPlug Service
  */
 -(void)stopService;
